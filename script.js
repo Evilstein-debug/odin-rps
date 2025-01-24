@@ -12,7 +12,7 @@ function playGame(){
     
     
     function getHumanChoice(){
-       let humanChoice = prompt("Enter your choice >.< ").toLowerCase();
+       let humanChoice = prompt("Enter your choice >.< (rock, paper or scissors)").toLowerCase();
         if (humanChoice === "rock" || humanChoice === "paper" || humanChoice === "scissors") return humanChoice;
         else alert("enter a valid choice between rock, paper or scissors");
     }
