@@ -48,7 +48,7 @@ function playGame(){
         else return "draw!";
         
     }
-    console.log(playRound(humanSelection, computerSelection));
+    return playRound(humanSelection, computerSelection);
 }
 
 
@@ -60,4 +60,8 @@ console.log("Score: You - Opp");
 console.log(humanScore, " - ",computerScore);
 if (humanScore>computerScore) console.log("The final victory is yours!");
 else if (humanScore<computerScore) console.log("Better luck next time!");
-else console.log("finally its a draw!");
+else console.log("Finally its a draw!");
+
+function refreshPage() {
+    location.reload();
+}
