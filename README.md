@@ -10,6 +10,7 @@ This project is part of The Odin Project curriculum. It is a simple implementati
 4. Click the "Play" button on the webpage to start the game.
 5. Enter your choice in the prompt dialogue box (rock, paper, or scissors).
 6. The game will play 5 rounds and display the results in the console.
+7. Play this game here https://evilstein-debug.github.io/odin-rps/ .
 
 ## Features
 
